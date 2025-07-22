@@ -1,56 +1,151 @@
-# 🌱 Plantify
-블록체인 강의 과제물 - 초록 경매
+# 🌱 Plantify - P2P Smart Contract Platform for Plant Auctions
 
-## 📌 프로젝트 소개
-**Plantify**는 식물 거래의 신뢰성을 높이기 위해 설계된 P2P 기반 스마트 계약 플랫폼입니다. 구매자와 판매자 간의 직접적인 실시간 통신과 스마트 컨트랙트 기반의 계약 검증, 그리고 식물의 생장 상태를 분산 저장(IPFS) 하여 거래의 투명성과 안정성을 확보합니다.
+<br>
+
+## 📌 Overview
+**Plantify** is a decentralized smart contract platform designed to ensure transparency and reliability in plant trading. It facilitates direct communication between buyers and sellers and securely stores plant growth records using IPFS, eliminating the need for intermediaries.
+
+- Real-time contract negotiation via WebRTC
+- Smart contract-based agreement verification
+- IPFS-based decentralized image and growth data storage
+
+<br>
+
+## 🎯 Project Goal
+- Reduce transaction fees via direct P2P transactions
+- Improve trading efficiency through real-time coordination
+- Ensure data integrity and transparency using IPFS and smart contracts
+
+<br>
+
+## 🧠 Key Features
+
+### 🟢 Real-time P2P Communication (via WebRTC)
+- Buyers and sellers connect directly for contract negotiation
+- Uses a signaling server for initial handshake, followed by direct socket communication
+
+### 🟢 Decentralized Data Storage (via IPFS)
+- Plant images and growth state data are stored on IPFS
+- Each file is uniquely identifiable and traceable using CIDs (Content Identifiers)
+
+### 🟢 Smart Contract Integration
+- Ethereum-based smart contracts verify and record trade agreements
+- Ensures automation and trust throughout the process
+
+<br>
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Language / Framework | TypeScript, JavaScript, Electron, Next.js |
+| Backend | Node.js, Nginx, Socket.io, IPFS |
+| Infra / Tools | Git, GitHub |
+
+<br>
+
+## 👥 Team Roles
+
+| Name | Role |
+|------|------|
+| 박기표 | Frontend & Backend |
+| 최주홍 | Backend |
+| 조혜령(Me) | **Frontend**, Technical Documentation, Presentation |
+
+<br>
+
+## 👩🏻‍💻 My Contributions
+
+- Developed all frontend components using **Next.js + Electron**
+- Created **detailed technical documentation** (excluding the jointly written requirement specification)
+- Led **pitch deck creation and live presentation**
+- Participated in overall UI/UX design and integration testing
+
+📎 [Technical Spec & Architecture (Google Slides)](https://docs.google.com/presentation/d/1fg9lw3GHv-sjsyFYsxHusGHlugtFW-4z1hN0GvEkziw/edit?usp=sharing)  
+📎 [Final Pitch Deck (Google Slides)](https://docs.google.com/presentation/d/1u-x0fprm8YRmoURpRcxBjCT9vburPWm3/edit?usp=sharing&ouid=115376421597770111346&rtpof=true&sd=true)
+
+<br>
+
+## 📸 Screenshots
+메인페이지
+<img width="1235" height="925" alt="temp_1753174329477 155581386" src="https://github.com/user-attachments/assets/40341689-457a-4cf9-91ff-695fc56c2d92" />
 
 
-</br>
 
-## 🚀 프로젝트 목적
-- 중개자 없는 직접 거래를 통해 거래 수수료 절감
-- 실시간 계약 조율 및 데이터 공유를 통한 거래 효율성 향상
-- IPFS 및 스마트 컨트랙트 기반으로 데이터의 위변조 방지 및 투명한 관리
-
-</br>
-
-## 🔑 주요 기능
-### 실시간 P2P 통신 (WebRTC 기반)
-- 구매자와 판매자가 직접 연결되어 실시간으로 계약 내용을 협의
-- 시그널링 서버를 통해 초기 연결을 수립하고 이후 직접 소켓 연결
-### IPFS 기반 분산 데이터 저장
-- 거래 시 생성되는 식물 이미지 및 성장 상태 데이터를 IPFS에 저장
-- CID(Content Identifier)를 통해 고유하게 식별 및 추적 가능
-### 스마트 컨트랙트 연동 (계약 검증)
-- 스마트 컨트랙트를 통해 거래 조건을 자동으로 검증하고 기록
-- 거래의 신뢰성과 자동화를 동시에 확보
-
-</br>
-
-## 📦  기술 스택
-### ⚡️ Language & Framework
-![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&subid1=20250517-2325-2789-b31f-6cb470b7fd63)
-![electron](https://img.shields.io/badge/electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-### backend
-![node.js](https://img.shields.io/badge/node.js-5FA04E?style=for-the-badge&logo=node.js&logoColor=white)
-![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![socket.io](https://img.shields.io/badge/socket.io-000000?style=for-the-badge&logo=socket.io&logoColor=white)
-![ipfs](https://img.shields.io/badge/ipfs-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
+![P2P UI](img width="1823" height="802" alt="temp_1753174277367 -1147059840" src="https://github.com/user-attachments/assets/813c4abc-1ae7-4e5e-96e0-779c8f32635f")
 
 
-### 🛠️ Tools
-![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![github](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)
+---
 
+# 🌱 Plantify - 식물 경매를 위한 P2P 스마트 계약 플랫폼
 
-## 👋️ 팀원소개 
-| 이름  | 역할  |
-| --- | --- |
-| [박기표](https://github.com/ppward) | Frontend, Backend |
-| 최주홍 | Backend  |
-| 조혜령 | Frontend |
+<br>
 
+## 📌 개요
+**Plantify**는 식물 거래의 투명성과 신뢰성을 보장하도록 설계된 분산형 스마트 계약 플랫폼입니다. 구매자와 판매자 간의 직접적인 소통을 용이하게 하고 IPFS를 사용하여 식물 생장 기록을 안전하게 저장하여 중개자가 필요 없습니다.
 
+- WebRTC를 통한 실시간 계약 협상
+- 스마트 계약 기반 계약 검증
+- IPFS 기반 분산 이미지 및 성장 데이터 저장
+
+<br>
+
+## 🎯 프로젝트 목표
+- 직접 P2P 거래를 통한 거래 수수료 절감
+- 실시간 조정을 통한 거래 효율성 향상
+- IPFS 및 스마트 계약을 사용하여 데이터 무결성 및 투명성 보장
+
+<br>
+
+## 🧠 주요 기능
+
+### 🟢 실시간 P2P 통신(WebRTC 기반)
+- 구매자와 판매자가 계약 협상을 위해 직접 연결
+- 초기 핸드셰이크를 위해 신호 서버를 사용한 후 직접 소켓 통신
+
+### 🟢 분산 데이터 저장(IPFS 기반)
+- 식물 이미지 및 성장 상태 데이터는 IPFS에 저장됩니다.
+- 각 파일은 CID(콘텐츠 식별자)를 사용하여 고유하게 식별 및 추적 가능합니다.
+
+### 🟢 스마트 계약 통합
+- 이더리움 기반 스마트 계약은 거래 계약을 검증하고 기록합니다.
+- 프로세스 전반에 걸쳐 자동화와 신뢰를 보장합니다.
+
+<br>
+
+## 🛠️ 기술 스택
+
+| 카테고리 | 도구 |
+|----------|-------|
+| 언어/프레임워크 | TypeScript, JavaScript, Electron, Next.js |
+| 백엔드 | Node.js, Nginx, Socket.io, IPFS |
+| 인프라/도구 | Git, GitHub |
+
+<br>
+
+## 👥 팀 역할
+
+| 이름 | 역할 |
+|------|------|
+| 박기표 | 프런트엔드 및 백엔드 |
+| 최주홍 | 백엔드 |
+| 조혜령 | **프트엔드**, 기술 문서, 프레젠테이션 |
+
+<br>
+
+## 👩🏻‍💻 내 기여
+
+- **Next.js + Electron**을 사용하여 모든 프런트엔드 구성 요소를 개발했습니다.
+- **상세 기술 문서** 작성(공동으로 작성된 요구 사항 명세서 제외)
+- **피치 자료 작성 및 실시간 프레젠테이션** 주도
+- 전반적인 UI/UX 디자인 및 통합 테스트 참여
+
+📎 [기술 사양 및 아키텍처(Google Slides)](https://docs.google.com/presentation/d/1fg9lw3GHv-sjsyFYsxHusGHlugtFW-4z1hN0GvEkziw/edit?usp=sharing)
+📎 [최종 피치 자료(Google Slides)](https://docs.google.com/presentation/d/1u-x0fprm8YRmoURpRcxBjCT9vburPWm3/edit?usp=sharing&ouid=115376421597770111346&rtpof=true&sd=true)
+
+<br>
+
+## 📸 스크린샷
+
+---
 
