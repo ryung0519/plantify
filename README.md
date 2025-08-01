@@ -73,7 +73,7 @@ Main Page
 P2P UI
 <img width="1823" height="802" alt="temp_1753174277367 -1147059840" src="https://github.com/user-attachments/assets/813c4abc-1ae7-4e5e-96e0-779c8f32635f">
 
-
+-kr
 ---
 
 # 🌱 Plantify - 식물 경매를 위한 P2P 스마트 계약 플랫폼
