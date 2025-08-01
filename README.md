@@ -50,7 +50,7 @@
 |------|------|
 | 박기표 | Frontend & Backend |
 | 최주홍 | Backend |
-| 조혜령(Me) | **Frontend**, Technical Documentation, Presentation |
+| 조혜령(Me) | Frontend, Technical Documentation, Presentation |
 
 <br>
 
@@ -128,7 +128,7 @@ P2P UI
 |------|------|
 | 박기표 | 프런트엔드 및 백엔드 |
 | 최주홍 | 백엔드 |
-| 조혜령 | 프트엔드, 기술 문서, 프레젠테이션 |
+| 조혜령(Me) | 프트엔드, 기술 문서, 프레젠테이션 |
 
 <br>
 
