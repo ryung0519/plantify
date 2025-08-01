@@ -67,12 +67,11 @@
 <br>
 
 ## 📸 Screenshots
-메인페이지
+Main Page
 <img width="1235" height="925" alt="temp_1753174329477 155581386" src="https://github.com/user-attachments/assets/40341689-457a-4cf9-91ff-695fc56c2d92" />
 
-
-
-![P2P UI](img width="1823" height="802" alt="temp_1753174277367 -1147059840" src="https://github.com/user-attachments/assets/813c4abc-1ae7-4e5e-96e0-779c8f32635f")
+P2P UI
+<img width="1823" height="802" alt="temp_1753174277367 -1147059840" src="https://github.com/user-attachments/assets/813c4abc-1ae7-4e5e-96e0-779c8f32635f">
 
 
 ---
@@ -146,6 +145,10 @@
 <br>
 
 ## 📸 스크린샷
+메인패이지
+<img width="1235" height="925" alt="temp_1753174329477 155581386" src="https://github.com/user-attachments/assets/40341689-457a-4cf9-91ff-695fc56c2d92" />
 
+채팅창
+<img width="1823" height="802" alt="temp_1753174277367 -1147059840" src="https://github.com/user-attachments/assets/813c4abc-1ae7-4e5e-96e0-779c8f32635f">
 ---
 
